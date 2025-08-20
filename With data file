@@ -13,7 +13,7 @@ int main()
         printf ("Enter three numbers: ");
         scanf ("%f %f %f",&a,&b,&c);
         sum=a+b+c;
-        fprintf (file1,"The sum of three number is = %.2f",sum);
+        fprintf (file1,"Addition of three number is = %.2f",sum);
         fclose (file1);
     }
     if (file2==NULL)
