@@ -1,0 +1,21 @@
+#include <stdio.h>
+struct add
+{
+    float value;
+};
+int main()
+{
+    int i,n;
+    float sum=0.0;
+    printf ("Enter limit of input numbers: ");
+    scanf ("%d",&n);
+    struct add s[n];
+    printf ("Enter %d numbers: ",n);
+    for (i=0; i<n; i++)
+    {
+        scanf ("%f",&s[i].value);
+        sum+=s[i].value;
+    }
+    printf ("The sum of three numbers: %.2f",sum);
+    return 0;
+}
