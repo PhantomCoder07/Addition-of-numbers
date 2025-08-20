@@ -6,7 +6,7 @@ int main()
     printf ("Enter three integer: ");
     scanf ("%d %d %d",&a,&b,&c);
     sum=a+b+c;
-    printf ("Additio of three numbers: %d\n",sum);
+    printf ("Addition of three numbers: %d\n",sum);
     return 0;
 }
 // By using function (Integer)
@@ -91,4 +91,5 @@ int main()
     }
     return 0;
 }
+
 
