@@ -5,6 +5,6 @@ int main()
     printf ("Enter three integer: ");
     scanf ("%d %d %d",&a,&b,&c);
     sum=a+b+c;
-    printf ("Sum of three numbers: %d",sum);
+    printf ("Addition of three numbers: %d",sum);
     return 0;
 }
