@@ -16,6 +16,6 @@ int main()
         scanf ("%f",&s[i].value);
         sum+=s[i].value;
     }
-    printf ("The sum of three numbers: %.2f",sum);
+    printf ("Addition of numbers: %.2f",sum);
     return 0;
 }
