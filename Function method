@@ -8,6 +8,6 @@ int main()
     float a,b,c;
     printf("Enter three numbers: ");
     scanf("%f %f %f",&a,&b,&c);
-    printf ("Sum of three numbers: %.2f",add(a,b,c));
+    printf ("Addition of three numbers: %.2f\n",add(a,b,c));
     return 0;
 }
