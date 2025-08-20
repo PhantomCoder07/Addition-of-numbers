@@ -6,7 +6,7 @@ int main()
     printf ("Enter three integer: ");
     scanf ("%d %d %d",&a,&b,&c);
     sum=a+b+c;
-    printf ("Sum of three numbers: %d",sum);
+    printf ("Additio of three numbers: %d\n",sum);
     return 0;
 }
 // By using function (Integer)
@@ -20,7 +20,7 @@ int main()
     int a,b,c;
     printf("Enter three numbers: ");
     scanf("%d %d %d",&a,&b,&c);
-    printf ("Sum of three numbers: %d",add(a,b,c));
+    printf ("Addition of three numbers: %d\n",add(a,b,c));
     return 0;
 }
 // By using function (float)
@@ -34,7 +34,7 @@ int main()
     float a,b,c;
     printf("Enter three numbers: ");
     scanf("%f %f %f",&a,&b,&c);
-    printf ("Sum of three numbers: %.2f",add(a,b,c));
+    printf ("Addition of three numbers: %.2f\n",add(a,b,c));
     return 0;
 }
 // By using Structure data type
@@ -56,7 +56,7 @@ int main()
         scanf ("%f",&s[i].value);
         sum+=s[i].value;
     }
-    printf ("The sum of three numbers: %.2f",sum);
+    printf ("Addition of numbers: %.2f\n",sum);
     return 0;
 }
 // File
@@ -75,7 +75,7 @@ int main()
         printf ("Enter three numbers: ");
         scanf ("%f %f %f",&a,&b,&c);
         sum=a+b+c;
-        fprintf (file1,"The sum of three number is = %.2f",sum);
+        fprintf (file1,"Addition of three number is: %.2f\n",sum);
         fclose (file1);
     }
     if (file2==NULL)
@@ -91,3 +91,4 @@ int main()
     }
     return 0;
 }
+
