@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    float a,b,c,sum;
+    printf ("Enter three integer: ");
+    scanf ("%f %f %f",&a,&b,&c);
+    sum=a+b+c;
+    printf ("Sum of three numbers: %.2f\n",sum);
+    return 0;
+}
